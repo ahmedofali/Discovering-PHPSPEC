@@ -1,11 +1,7 @@
-<?php namespace DiscoveringPHPSpec ;
+<?php
 
+namespace DiscoveringPHPSpec;
 
 class Markdown
 {
-
-    public function generate(){
-        return [] ;
-    }
-
 }
