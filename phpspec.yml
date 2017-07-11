@@ -1,0 +1,4 @@
+suites:
+  UniqueIndicator:
+    namespace: DiscoveringPHPSpec
+    src_path: src

@@ -1,0 +1,19 @@
+{
+    "name": "ahmedali/phpspec_discover",
+    "description": "Discover phpspec a tool for designing classes that work well. It's best used to drive the design of a clean, decoupled, isolated domain model without getting too involved in infrastructure.",
+    "authors": [
+        {
+            "name": "ahmed32ali",
+            "email": "dev.ahmed.abbas@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPSpec_Test\\": "src/"
+        }
+    }
+}
