@@ -10,13 +10,12 @@ class PrimeFactors
 
         $candidate = 2 ;
 
-        while( $number > 1 ){
+        for( ; $number > 1 ; $candidate ++ ){
             while( $number % $candidate == 0 ){
                 $primes[] = $candidate ;
                 $number /= $candidate ;
             }
 
-            $candidate ++ ;
         }
 
 
