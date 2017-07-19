@@ -32,4 +32,8 @@ class FizzBuzzSpec extends ObjectBehavior
         $this->executeUpTo( 4 )->shouldReturn( [ 1 , 2 , "fizz" , 4 ] ) ;
     }
 
+    function it_should_retun_array_for_8(){
+        $this->executeUpTo( 8 )->shouldReturn( [ 1 , 2 , "fizz" , 4 , "buzz" , "fizz" , 7 ,8 ] ) ;
+    }
+
 }
